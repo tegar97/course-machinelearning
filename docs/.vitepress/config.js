@@ -27,7 +27,7 @@ export default {
   themeConfig: {
     sidebar: {
       "/en": golangEn(),
-      "/id/": sidebarGirish(),
+      "/id/": id(),
     },
     nav: [
       { text: "Tentang", link: "/tentang" },
@@ -53,10 +53,7 @@ export default {
 
 function golangEn() {
   return [
-    {
-      text: "Panduan",
-      items: [{ text: "Tentang Martin Fowler", link: "/martin-fowler/" }],
-    },
+  
     {
       text: "Dispensables",
       items: [
@@ -157,104 +154,15 @@ function golangEn() {
   ];
 }
 
-function sidebarGirish() {
+function id() {
   return [
     {
-      text: "Panduan",
-      items: [{ text: "Tentang Girish", link: "/girish/" }],
-    },
-    {
-      text: "Hierarchy Smells",
+      text: "Perkenalan ",
       collapsible: true,
       items: [
-        { text: "Tentang", link: "/girish/hierarchy/" },
-        { text: "Missing Hierarchy", link: "/girish/hierarchy/missing/" },
         {
-          text: "Unnecessary Hierarchy",
-          link: "/girish/hierarchy/unnecessary/",
-        },
-        { text: "Unfactored Hierarchy", link: "/girish/hierarchy/unfactored/" },
-        { text: "Wide Hierarchy", link: "/girish/hierarchy/wide/" },
-        {
-          text: "Speculative Hierarchy",
-          link: "/girish/hierarchy/speculative/",
-        },
-        // { text: 'Deep Hierarchy', link: '/girish/hierarchy/deep/' },
-        { text: "Rebellious Hierarchy", link: "/girish/hierarchy/rebellious/" },
-        // { text: 'Broken Hierarchy', link: '/girish/hierarchy/broken/' },
-        // { text: 'Multipath Hierarchy', link: '/girish/hierarchy/multipath/' },
-        { text: "Cyclic Hierarchy", link: "/girish/hierarchy/cyclic/" },
-      ],
-    },
-    {
-      text: "Abstraction Smells",
-      collapsible: true,
-      items: [
-        { text: "Tentang", link: "/girish/abstraction/" },
-        { text: "Missing Abstractions", link: "/girish/abstraction/missing/" },
-        {
-          text: "Imperative Abstractions",
-          link: "/girish/abstraction/imperative/",
-        },
-        {
-          text: "Incomplete Abstractions",
-          link: "/girish/abstraction/incomplete/",
-        },
-        // { text: 'Multifaceted Abstractions', link: '/girish/abstraction/multifaceted/' },
-        {
-          text: "Unnecessary Abstractions",
-          link: "/girish/abstraction/unnecessary/",
-        },
-        {
-          text: "Unitilized Abstractions",
-          link: "/girish/abstraction/unitilized/",
-        },
-        {
-          text: "Duplicate Abstractions",
-          link: "/girish/abstraction/duplicate/",
-        },
-      ],
-    },
-    {
-      text: "Encapsulation Smells",
-      collapsible: true,
-      items: [
-        { text: "Tentang", link: "/girish/encapsulation/" },
-        {
-          text: "Deficient Encapsulation",
-          link: "/girish/encapsulation/deficient/",
-        },
-        { text: "Leaky Encapsulation", link: "/girish/encapsulation/leaky/" },
-        {
-          text: "Missing Encapsulation",
-          link: "/girish/encapsulation/missing/",
-        },
-        {
-          text: "Unexploited Encapsulation",
-          link: "/girish/encapsulation/unexploited/",
-        },
-      ],
-    },
-    {
-      text: "Modularization Smells",
-      collapsible: true,
-      items: [
-        { text: "Tentang", link: "/girish/modularization/" },
-        {
-          text: "Broken Modularization",
-          link: "/girish/modularization/broken/",
-        },
-        {
-          text: "Insufficient Modularization",
-          link: "/girish/modularization/insufficient/",
-        },
-        {
-          text: "Cyclically-dependent Modularization",
-          link: "/girish/modularization/cyclically-dependent/",
-        },
-        {
-          text: "Hub-like Modularization",
-          link: "/girish/modularization/hub-like/",
+          text: "Apa itu artificial intelligence ",
+          link: "/id/introduction/tentang-ai",
         },
       ],
     },
