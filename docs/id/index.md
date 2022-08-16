@@ -4,4 +4,3 @@ layout: doc
 
 # Introduction
 
-Indonesia
