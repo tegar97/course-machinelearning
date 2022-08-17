@@ -19,6 +19,8 @@ Menurut pendapat Norvig dan Russel
 
 >Kecerdasan buatan / AI dikategorikan sebagai dua dimensi utama yaitu berfikir dan bertindak.- Norvig dan Russel
 
+
+Manfaat dari AI sudah bisa kita sangat rasakan dalam kehidupan sehari hari , contohnya saat kamu menggunakan siri atau google assisten ,fitur rekomendasi barang di toko toko online , dan lain lain.<br>
 <br/>
 Kecerdasan dapat melakukan salah satu dari faktor Berikut<br/>
 1.Acting humanly ,sistem dapat bertindak seperti manusia<br/>
