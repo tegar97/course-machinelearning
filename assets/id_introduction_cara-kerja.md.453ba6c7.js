@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as r}from"./app.ecd9d0a3.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"id/introduction/cara-kerja.md"}'),t={name:"id/introduction/cara-kerja.md"};function o(c,n,i,s,d,p){return r(),e("div")}var f=a(t,[["render",o]]);export{m as __pageData,f as default};
