@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,a as o}from"./app.ecd9d0a3.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"id/introduction/sejarah-ai.md"}'),r={name:"id/introduction/sejarah-ai.md"},s=o("p",null,"a",-1),n=[s];function i(c,d,_,p,l,h){return t(),a("div",null,n)}var f=e(r,[["render",i]]);export{u as __pageData,f as default};
